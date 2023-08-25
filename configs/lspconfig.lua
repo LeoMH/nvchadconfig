@@ -22,7 +22,7 @@ lspconfig.hls.setup({
   root_dir = util.root_pattern("*.hs")
 })
 
-lspconfig.ltex.setup({
+lspconfig.texlab.setup({
   root_dir = util.root_pattern("*.tex")
 })
 
