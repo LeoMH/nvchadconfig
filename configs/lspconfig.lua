@@ -26,6 +26,10 @@ lspconfig.texlab.setup({
   root_dir = util.root_pattern("*.tex")
 })
 
+lspconfig.ltex.setup({
+  filetypes = { "bib", "gitcommit", "markdown", "org", "plaintex", "rst", "rnoweb", "tex", "pandoc", "quarto", "rmd"}
+})
+
 lspconfig.jdtls.setup({
   root_dir = util.root_pattern(".git", ".gradle*"),
   filetypes = {"java"}
